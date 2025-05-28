@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="../portfolio-css/portfolio.css">
+</head>
+<body>
+  <nav>
+    <div class="nav-container">
+      <button class="nav-toggle" onclick="toggleMenu()">☰</button>
+      <ul class="nav-links">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../Lecture/Lecture.html">Lecture Pages</a></li>
+        <li><a href="../Prelim/Prelim.html" class="active">Prelim</a></li>
+        <li><a href="../Midterm/Midterm.html">Midterm </a></li>
+        <li><a href="../Finals/Finals.html">Finals</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="content">
+    <h1>Prelim Activities</h1>
+    <div class="activity-grid">
+      <div class="activity-card">
+        <h3>Prelim Activity 2</h3>
+        <p>Table-Image Gallery</p>
+        <a href="../Prelim/Prelim/ImageGallery/ImageGallery.html" target="_blank">View</a>
+      </div>
+      <div class="activity-card">
+        <h3>Prelim Activity 3</h3>
+        <p>Tags - Web Developer's Page </p>
+        <a href="../Prelim/Prelim/Tags - Web Developer's Page/FinalHandsOnAct1/FinalHandsOnAct1.html" target="_blank">View</a>
+      </div>
+      <div class="activity-card">
+        <h3>Prelim Quiz 1</h3>
+        <p>Table with Images</p>
+        <a href="../Prelim/Prelim/PrelimQuiz1/PrelimHandsOnQuiz1.html" target="_blank">View</a>
+      </div>
+      <div class="activity-card">
+        <h3>Prelim Exam</h3>
+        <p>Furniture Sale</p>
+        <a href="../Prelim/Prelim/Hands-on Prelim Exam/index.html" target="_blank">View</a>
+      </div>
+  </div>
+
+  <script>
+  function toggleMenu() {
+  const navLinks = document.querySelector('.nav-links');
+  navLinks.classList.toggle('show');
+  }
+  </script>
+</body>
+</html>

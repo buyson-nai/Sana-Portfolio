@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="../portfolio-css/portfolio.css">
+</head>
+<body>
+  <nav>
+    <div class="nav-container">
+      <button class="nav-toggle" onclick="toggleMenu()">☰</button>
+      <ul class="nav-links">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../Lecture/Lecture.html">Lecture Pages</a></li>
+          <li><a href="../Prelim/Prelim.html">Prelim</a></li>
+          <li><a href="../Midterm/Midterm.html" class="active">Midterm </a></li>
+          <li><a href="../Finals/Finals.html">Finals</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="content">
+    <div class="activity-grid">
+      <h1>Midterm Activities</h1>
+      <div class="activity-card">
+        <h3>Midterm Activity 2</h3>
+        <p>Lists- Table of Contents</p>
+        <a href="../Midterm/Midterm/MidAct2/MidAct2LIST.html" target="_blank">View</a>
+      </div>
+      <div class="activity-card">
+        <h3>Midterm Activity 3</h3>
+        <p>Image and Image Mapping</p>
+        <a href="../Midterm/Midterm/MidAct3/MidLect6.html" target="_blank">View</a>
+      </div>
+      <div class="activity-card">
+        <h3>Midterm Activity 4</h3>
+        <p>Admission Form</p>
+        <a href="../Midterm/Midterm/MidAct4/MidtermHandsOnAct3.html" target="_blank">View</a>
+      </div>
+      <div class="activity-card">
+        <h3>Midterm Exam</h3>
+        <p>Informative Page</p>
+        <a href="../Midterm/Midterm/Midterm HTML/MidExam.html" target="_blank">View</a>
+      </div>
+    </div>
+  </div>
+
+  <script>
+  function toggleMenu() {
+    const navLinks = document.querySelector('.nav-links');
+    navLinks.classList.toggle('show');
+  }
+  </script>
+</body>
+</html>

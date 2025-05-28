@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="../portfolio-css/portfolio.css">
+</head>
+<body>
+  <nav>
+    <div class="nav-container">
+      <button class="nav-toggle" onclick="toggleMenu()">☰</button>
+      <ul class="nav-links">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../Lecture/Lecture.html" class="active">Lecture Pages</a></li>
+          <li><a href="../Prelim/Prelim.html">Prelim</a></li>
+          <li><a href="../Midterm/Midterm.html">Midterm </a></li>
+          <li><a href="../Finals/Finals.html">Finals</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="content">
+    <h1>Lecture Pages</h1>
+    <div class="activity-grid">
+      <div class="activity-card">
+        <h3>Activity 1</h3>
+        <p>Intro to Web Design and Components</p>
+        <a href="../Lecture/Lecture/lec1/CIP1101 Lect1 Web Design.pdf" target="_blank">View</a>
+      </div>
+      <div class="activity-card">
+        <h3>Activity 2</h3>
+        <p>HTML Structures</p>
+        <a href="../Lecture/Lecture/Lec2/Lecture2.html" target="_blank">View</a>
+      </div>
+      <div class="activity-card">
+        <h3>Activity 3</h3>
+        <p>Text Fundamentals</p>
+        <a href="../Lecture/Lecture/Lec3/Lecture3.html" target="_blank">View</a>
+      </div>
+      <div class="activity-card">
+        <h3>Activity 4</h3>
+        <p>CSS</p>
+        <a href="../Lecture/Lecture/lec4/Lecture4.html" target="_blank">View</a>
+      </div>
+      <div class="activity-card">
+        <h3>Activity 5</h3>
+        <p>Tables</p>
+        <a href="../Lecture/Lecture/lec5/Lecture5.html" target="_blank">View</a>
+      </div>
+            <div class="activity-card">
+        <h3>Activity 6</h3>
+        <p>Forms</p>
+        <a href="../Lecture/Lecture/lec6/Lecture6.html" target="_blank">View</a>
+      </div>
+            <div class="activity-card">
+        <h3>Activity 7</h3>
+        <p>Bootstrap</p>
+        <a href="../Lecture/Lecture/lec7/CIP1101 Lect7 Bootstrap.pdf" target="_blank">View</a>
+      </div>
+    </div>
+  </div>
+
+  <script>
+  function toggleMenu() {
+    const navLinks = document.querySelector('.nav-links');
+    navLinks.classList.toggle('show');
+  }
+  </script>
+</body>
+</html>

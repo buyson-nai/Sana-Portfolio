@@ -1,0 +1,193 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ECF0F1;
+}
+header {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+h3 {
+    color: black;
+    text-align: left;
+}
+
+img {
+    max-width: 75%;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    background-color: #2C3E50;
+    color: #fff;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown a{
+    font-size: 20px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 130px;
+    z-index: 1;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 10px 14px;
+  text-decoration: none;
+  display: block;
+}
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.ana-content a:hover {
+    background-color: #88619a;
+  }
+
+.dip-content a:hover {
+    background-color: #33a474;
+  }
+
+.sen-content a:hover {
+    background-color: #4298b4;
+  }
+
+.exp-content a:hover {
+    background-color: #e4ae3a;
+  }
+
+.group {
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.analysts-group {
+    background-color: #88619a; 
+}
+
+.diplomats-group {
+    background-color: #33a474; 
+}
+
+.sentinels-group {
+    background-color: #4298b4; 
+}
+
+.explorers-group {
+    background-color: #e4ae3a; 
+}
+
+.title-div{
+    background-color: #f2e1f9;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+#ANA, #INTJ, #INTP, #ENTJ, #ENTP{
+    background-color: #f2e1f9;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+#DIP, #INFJ, #INFP, #ENFJ, #ENFP{
+    background-color: #d5f5e3;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+#SEN, #ISTJ, #ISFJ, #ESTJ, #ESFJ{
+    background-color: #d6eaf8;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+#EXP, #ISTP, #ISFP, #ESTP, #ESFP{
+    background-color: #fef5e7;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+#backToTop {
+    position: fixed;
+    bottom: 5%;
+    right: 20px;
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 12px 16px;
+    border-radius: 50%;
+    z-index: 1001;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    opacity: 0.7;
+  }
+  
+  

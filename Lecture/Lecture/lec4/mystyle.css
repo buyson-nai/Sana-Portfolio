@@ -1,0 +1,22 @@
+body {
+    background-color: mediumseagreen;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: whitesmoke;
+    margin-left: 20px;
+}
+
+body{
+    background-image: url("https://i.pinimg.com/originals/d8/8f/f6/d88ff65735a13bb3a95db0575278f960.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+
+    /* background: mediumseagreen url("https://i.pinimg.com/originals/d8/8f/f6/d88ff65735a13bb3a95db0575278f960.jpg") no-repeat right top; */
+}
+
+h1.solid{
+    border: 10px solid yellow;
+}

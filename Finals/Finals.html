@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="../portfolio-css/portfolio.css">
+</head>
+<body>
+  <nav>
+    <div class="nav-container">
+      <button class="nav-toggle" onclick="toggleMenu()">☰</button>
+      <ul class="nav-links">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../Lecture/Lecture.html">Lecture Pages</a></li>
+          <li><a href="../Prelim/Prelim.html">Prelim</a></li>
+          <li><a href="../Midterm/Midterm.html">Midterm </a></li>
+          <li><a href="../Finals/Finals.html" class="active">Finals</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="content">
+    <h1>Finals Activities</h1>
+    <div class="activity-grid">
+      <div class="activity-card">
+        <h3>Final Activity</h3>
+        <p>Admin Page</p>
+        <a href="../Finals/Finals/FinalsAct2/FinalsACT2.html" target="_blank">View</a>
+      </div>
+      <div class="activity-card">
+        <h3>Final Project</h3>
+        <p>BroTein Fitness</p>
+        <a href="https://chardue.github.io/brotein/" target="_blank">View</a>
+      </div>
+    </div>
+  </div>
+
+  <script>
+  function toggleMenu() {
+  const navLinks = document.querySelector('.nav-links');
+  navLinks.classList.toggle('show');
+  }
+  </script>
+</body>
+</html>

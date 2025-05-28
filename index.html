@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="portfolio-css/portfolio.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <nav>
+    <div class="nav-container">
+      <div class="brand"> &lt;/&gt;Ian </div>
+      <button class="nav-toggle" onclick="toggleMenu()">☰</button>
+      <ul class="nav-links">
+          <li><a href="Lecture/Lecture.html">Lecture Pages</a></li>
+          <li><a href="Prelim/Prelim.html">Prelim</a></li>
+          <li><a href="Midterm/Midterm.html">Midterm </a></li>
+          <li><a href="Finals/Finals.html">Finals</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="profile-container">
+  <div class="photo-card">
+    <div class="photo-box">
+      <img src="portfolio-css/PortfolioPic.jpg" alt="My Photo" />
+    </div>
+    <h2>Ronald Ian Sana</h2>
+    <p>2nd Year Computer Science Student</p>
+    <p>Email: sana.ronaldian@ue.edu.ph</p>
+    <div class="social-icons">
+      <a href="https://github.com/buyson-nai" target="_blank">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="https://www.facebook.com/yukiboygg" target="_blank">
+        <i class="fab fa-facebook"></i>
+      </a>
+      <a href="https://www.instagram.com/yukisospecial/" target="_blank">
+        <i class="fab fa-instagram"></i>
+      </a>
+    </div>
+  </div>
+
+  <div class="bio-card">
+    <h2>About Me</h2>
+    <p>
+      Welcome to my portfolio website. This site is where I showcase my projects, exams, activities, and lecture works. Designed and developed by me as part of my learning journey.
+    </p>
+    <h3>My Skills</h3>
+    <div class="skills">
+      <span>HTML/CSS</span>
+      <span>Python</span>
+      <span>C++</span>
+      <span>Java</span>
+    </div>
+
+    <h3>Education</h3>
+    <ul class="education">
+      <li><strong>High School</strong>: Colegio de Sta. Isabel Laguna Inc.</li>
+      <li><strong>Senior High School</strong>: Siniloan Integrated National High School - ICT</li>
+      <li><strong>College</strong>: University of the East, Manila - BSCS</li>
+    </ul>
+  </div>
+</div>
+
+  <script>
+  function toggleMenu() {
+    const navLinks = document.querySelector('.nav-links');
+    navLinks.classList.toggle('show');
+  }
+  </script>
+</body>
+</html>
